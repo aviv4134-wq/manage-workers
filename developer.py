@@ -13,6 +13,9 @@ class Developer(Employee):
         return self.base_salary + (self.overtime_hours * self.hourly_rate)
 
 
+d1 = Developer(1,'avi',8000,2,40)
+
+
 if __name__ == '__main__':
-    d1 = Developer(1,'avi',8000,2,40)
-    print(d1.employee_details())
+    #print(d1.employee_details())
+    pass
