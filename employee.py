@@ -3,7 +3,7 @@
 class Employee:
 
 
-    def __int__(self,id,name,base_salary):
+    def __init__(self,id: int,name: str,base_salary : int):
         self.id = id
         self.name = name
         self.base_salary = base_salary
